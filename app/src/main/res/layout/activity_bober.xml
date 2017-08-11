@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lines_dark2">
+
+    <TextView
+        android:text="
+        Satu lagi tempat nongkrong di Bandung yang menawarkan aneka kopi dan minuman ringan yang nikmat untuk mengobrol bersama teman.
+        Bober Cafe juga menyediakan tempat lesehan yang luas untuk pengunjung yang kurang suka duduk di sofa, kelebihan kafe ini adalah buka 24 jam, jadi anda bisa datang kapan saja ke kafe ini.
+         Tersedia aneka makanan, baik itu makanan berat untuk mengganjal perut, lokasinya ada di Jalan RE.Mahabrata (jalan riau)NO.123, Bandung,Jawa Barat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bober"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lines_dark2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dakkenkolonial"
+        android:id="@+id/imageView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:text="
+        Dakken Coffe dan Steak adalah tempat nongkrong dibandung yang menyediakan aneka kopi dan steak yang lezat. Tempat ini didesain sedemikian rupa sehingga membuat kita merasa seperti sedang sirumah.
+        selain buat nongkrong anak-anak muda, Dakken juga sering digunakan untuk meeting, Dakken memiliki ruang yang cukup besar dan berjumlah banyak.
+        Tidak heran jika Dakken sering dikunjungi banyak pengusaha atau pebisnis yang meeting sembari makan malam."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lines_dark2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gasibu1"
+        android:id="@+id/imageView8" />
+
+    <TextView
+        android:text="
+        Taman gasibu menjadi salah satu tempat nongkrong di bandung yang tidak boleh di lewatkan, Taman ini merupakan lapangan yang dijadikan sebagai tempat untuk aktifitas olah raga.
+        Taman yang bersebrangan dengan gedung sate ini selalu ramai, apa lagi saat akhir pekan, banyak anak-anak muda olahraga atau jalan jalan dengan pasangan atau teman-teman.
+        Dari lapangan gasibu ini kita bisa menyebrang untukl menikmati pemandangan Gedung Sate. Gedung Sate merupakan salah satu ikon kota bandung."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textView15" />
+</RelativeLayout>

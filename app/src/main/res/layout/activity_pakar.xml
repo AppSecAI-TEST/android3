@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/lines_dark2">
+
+    <TextView
+        android:text="
+        Cafe ini tidak begitu istimewa namun untuk rasa dan harga nampaknya bisa bersaing dengan restoran-restoran mewah lainya, harga makanan dan minuman disini bervariasi antara Rp.10.000 - Rp.40.ooo di cafe D'pakar juga menerima pembayaran menggunakan mesin EDC.
+        Desain Bangunan Café d’Pakar ini juga cukup unik yaitu berupa rumah tradisional bergaya joglo. Namun yang paling menarik dari Café d’Pakar ini adalah makan di tempat yang berada di luar. Tentunya ini agar suasana makan kalian semakin berkesan, karena dengan memilih tempat duduk yang berada di luar kalian bisa langsung menikmati menu di Café d’Pakar dengan suasana alam terbuka."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.42"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pakar"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+</RelativeLayout>

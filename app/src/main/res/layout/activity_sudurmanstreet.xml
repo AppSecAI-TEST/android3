@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lines_dark2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sudirmanstreet"
+        android:layout_marginTop="52dp"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="
+        Didini anda bisa mencoba aneka kuliner, disini ada banyak gerai makanan yang berderetan di sepanjang area memanjang yang menghubungkan jl.jend. Sudirman dengan jl. Cibadak. jadi memang dirancang seperti Chinatown street food market sungguhan, Disini area sudirman street dilindungi dengan atap semi transparan.
+        Soal harga tidak terlalu mahal, untuk makanan berat berkisar Rp.30.000-an. Untuk duduk bisa disembarangan tempat tidak mesti digerai tempat sobat memesan makanan. Tapi, jangan lupa informasikan dimana lokasi tempat dudukmu kepada vendor makanan yang kamu pesan.  di"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/lines_dark2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cafewiki2"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:text="
+        Sesuai dengan namanya, tempat nongkrong di bandung yang satu ini menyajikan kopi dengan varian rasa yang nikmat. Wiki Koffi menjadi salah satu tempat untuk menyeruput kopi paling populer di bandung, apa lagi pada malam hari saat dingin menusuk tulang.
+        Apalagi ditambah dengan lokasinya berada dalam bangunan heritage peninggalan zaman Belanda, dengan desain minimalis Wiki Koffe akan membuat anda betah untuk menghabiskan waktu di sini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_weight="0.42"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
